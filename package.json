@@ -8,11 +8,10 @@
     "url": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-template"
   },
   "pipes-connector-name": "template",
-   "simple-data-pipe" :
-    {
-      "name": "template",
-      "service_dependencies" : []
-    }
+  "simple-data-pipe": {
+    "name": "template",
+    "service_dependencies": []
+  },
   "keywords": [
     "simple data pipe",
     "connector",
@@ -20,12 +19,13 @@
     "data movement"
   ],
   "dependencies": {
-   "simple-data-pipe-sdk": "^0.2.0"
+    "lodash": "^4.3.0",
+    "simple-data-pipe-sdk": "^0.2.0"
   },
   "author": "ptitzler@us.ibm.com",
   "license": "Apache-2.0",
-  "bugs": { 
-    "url" : "https://github.com/ibm-cds-labs/simple-data-pipe-connector-template/issues"
+  "bugs": {
+    "url": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-template/issues"
   },
   "readmeFilename": "README.md"
 }
