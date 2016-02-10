@@ -1,0 +1,31 @@
+{
+  "name": "simple-data-pipe-connector-template",
+  "version": "0.1.0",
+  "description": "Basic connector template for Simple Data Pipe",
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-template"
+  },
+  "pipes-connector-name": "template",
+   "simple-data-pipe" :
+    {
+      "name": "template",
+      "service_dependencies" : []
+    }
+  "keywords": [
+    "simple data pipe",
+    "connector",
+    "Cloudant",
+    "data movement"
+  ],
+  "dependencies": {
+   "simple-data-pipe-sdk": "^0.2.0"
+  },
+  "author": "ptitzler@us.ibm.com",
+  "license": "Apache-2.0",
+  "bugs": { 
+    "url" : "https://github.com/ibm-cds-labs/simple-data-pipe-connector-template/issues"
+  },
+  "readmeFilename": "README.md"
+}
