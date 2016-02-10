@@ -19,7 +19,7 @@
 ##### Services
 _If this connector requires Bluemix services list them here. Otherwise remove this section._
 
-##### Install the <TEMPLATE> connector
+##### Install the &lt;TEMPLATE&gt; connector
 
 Install the connector using [these instructions](https://github.com/ibm-cds-labs/simple-data-pipe/wiki/Installing-a-Simple-Data-Pipe-Connector) into the Simple Data Pipe.  
 
