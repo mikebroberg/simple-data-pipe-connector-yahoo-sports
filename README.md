@@ -1,3 +1,8 @@
+> Hey there! So you want to build your own Simple Data Pipe connector? [Start here](https://github.com/ibm-cds-labs/simple-data-pipe-connector-template/wiki/How-to-build-a-Simple-Data-Pipe-connector-using-this-template).
+
+***
+
+
 # Simple Data Pipe &lt;TEMPLATE&gt; Connector 
 
 [Simple Data Pipe](https://developer.ibm.com/clouddataservices/simple-data-pipe/) connector for [&lt;TEMPLATE&gt;](http://<ADD_DATA_SOURCE_URL>/).
