@@ -7,8 +7,7 @@
     "type": "git",
     "url": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-template"
   },
-  "pipes-connector-name": "template",
-  "simple-data-pipe": {
+  "simple_data_pipe": {
     "name": "template",
     "service_dependencies": []
   },
