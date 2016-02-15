@@ -21,7 +21,7 @@ _If this connector requires Bluemix services list them here. Otherwise remove th
 
 ##### Install the &lt;TEMPLATE&gt; connector
 
-Install the connector using [these instructions](https://github.com/ibm-cds-labs/simple-data-pipe/wiki/Installing-a-Simple-Data-Pipe-Connector) into the Simple Data Pipe.  
+  When you [follow these steps to install this connector](https://github.com/ibm-cds-labs/simple-data-pipe/wiki/Installing-a-Simple-Data-Pipe-Connector), add the following line to the dependencies list in the package.json file: `"simple-data-pipe-connector-<NAME>": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-<NAME>.git"`
 
 ##### Enable OAuth support and collect connectivity information
  _Describe where the user can find &lt;TEMPLATE&gt; specific oAuth information._
@@ -29,6 +29,7 @@ Install the connector using [these instructions](https://github.com/ibm-cds-labs
 ### Using the &lt;TEMPLATE&gt; Connector 
 
  _Describe how to use &lt;TEMPLATE&gt; in Simple Data Pipe_
+ 
 
 #### License 
 
