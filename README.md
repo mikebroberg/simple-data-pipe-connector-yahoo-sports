@@ -5,31 +5,42 @@
 
 # Simple Data Pipe &lt;TEMPLATE&gt; Connector 
 
-[Simple Data Pipe](https://developer.ibm.com/clouddataservices/simple-data-pipe/) connector for [&lt;TEMPLATE&gt;](http://<ADD_DATA_SOURCE_URL>/).
+This [Simple Data Pipe](https://developer.ibm.com/clouddataservices/simple-data-pipe/) connector template illustrates how to 
+* load a static set of data sets (2016 election speeches) and
+* store the results in Cloudant.
 
 ### Pre-requisites
 
 ##### General 
- _Describe general connector prerequisites, such as what type of account is required to access the data source, etc_
+ Review the pre-requisites listed below.
 
 ##### Deploy the Simple Data Pipe
 
  [Deploy the Simple Data Pipe in Bluemix](https://github.com/ibm-cds-labs/simple-data-pipe) using the Deploy to Bluemix button or manually.
 
 ##### Services
-_If this connector requires Bluemix services list them here. Otherwise remove this section._
+
+This connector does not require any additional Bluemix service.
+
+> 
 
 ##### Install the &lt;TEMPLATE&gt; connector
 
-  When you [follow these steps to install this connector](https://github.com/ibm-cds-labs/simple-data-pipe/wiki/Installing-a-Simple-Data-Pipe-Connector), add the following line to the dependencies list in the package.json file: `"simple-data-pipe-connector-<NAME>": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-<NAME>.git"`
+  When you [follow these steps to install this connector](https://github.com/ibm-cds-labs/simple-data-pipe/wiki/Installing-a-Simple-Data-Pipe-Connector), add the following line to the dependencies list in the package.json file: `"simple-data-pipe-connector-template-with-service-dependency": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-template-with-service-dependency.git"`
 
 ##### Enable OAuth support and collect connectivity information
- _Describe where the user can find &lt;TEMPLATE&gt; specific oAuth information._
+This sample connector does not connect to a cloud data source and therefore does not require oAuth authentication checking.
 
 ### Using the &lt;TEMPLATE&gt; Connector 
 
- _Describe how to use &lt;TEMPLATE&gt; in Simple Data Pipe_
- 
+To configure and run a pipe
+
+1. Open the Simple Data Pipe web console.
+2. Select __Create A New Pipe__.
+3. Select __Sample Data Source__ for the __Type__ when creating a new pipe  
+4. In the _Connect_ page, enter any string as _consumer key_ and _consumer secret_. 
+5. Select the data set (or data sets) to be loaded.
+6. Schedule or run the data pipe now.
 
 #### License 
 
@@ -46,4 +57,3 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-
