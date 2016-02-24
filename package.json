@@ -1,7 +1,7 @@
 {
   "name": "simple-data-pipe-connector-template",
   "version": "0.1.0",
-  "description": "Basic connector template for Simple Data Pipe",
+  "description": "Basic connector template for Simple Data Pipe.",
   "main": "./lib",
   "repository": {
     "type": "git",
@@ -9,7 +9,8 @@
   },
   "simple_data_pipe": {
     "name": "template",
-    "service_dependencies": []
+    "service_dependencies": [
+    ]
   },
   "keywords": [
     "simple data pipe",
@@ -18,10 +19,14 @@
     "data movement"
   ],
   "dependencies": {
+    "fs": "0.0.2",
     "lodash": "^4.3.0",
-    "simple-data-pipe-sdk": "^0.2.0"
+    "path": "^0.12.7",
+    "simple-data-pipe-sdk": "^0.2.2"
   },
-  "author": "ptitzler@us.ibm.com",
+  "author": {
+    "name": "ptitzler@us.ibm.com"
+  },
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-template/issues"
