@@ -3,10 +3,10 @@
 ***
 
 
-# Simple Data Pipe &lt;TEMPLATE&gt; Connector 
+# Simple Data Pipe Yahoo Sports Connector 
 
 This [Simple Data Pipe](https://developer.ibm.com/clouddataservices/simple-data-pipe/) connector template illustrates how to 
-* load a static set of data sets (2016 election speeches) and
+* load a data from your Yahoo Fantasy Baseball leagues and
 * store the results in Cloudant.
 
 ### Pre-requisites
@@ -24,20 +24,20 @@ This connector does not require any additional Bluemix service.
 
 > 
 
-##### Install the &lt;TEMPLATE&gt; connector
+##### Install the Yahoo Sports connector
 
-  When you [follow these steps to install this connector](https://github.com/ibm-cds-labs/simple-data-pipe/wiki/Installing-a-Simple-Data-Pipe-Connector), add the following line to the dependencies list in the package.json file: `"simple-data-pipe-connector-template": "https://github.com/ibm-cds-labs/simple-data-pipe-connector-template.git"`
+  When you [follow these steps to install this connector](https://github.com/ibm-cds-labs/simple-data-pipe/wiki/Installing-a-Simple-Data-Pipe-Connector), add the following line to the dependencies list in the package.json file: `"simple-data-pipe-yahoo-sports": "https://github.com/ibm-cds-labs/simple-data-pipe-yahoo-sports.git"`
 
 ##### Enable OAuth support and collect connectivity information
 This sample connector does not connect to a cloud data source and therefore does not require oAuth authentication checking.
 
-### Using the &lt;TEMPLATE&gt; Connector 
+### Using the Yahoo Sports Connector 
 
 To configure and run a pipe
 
 1. Open the Simple Data Pipe web console.
 2. Select __Create A New Pipe__.
-3. Select __Sample Data Source__ for the __Type__ when creating a new pipe  
+3. Select __Yahoo Sports__ for the __Type__ when creating a new pipe  
 4. In the _Connect_ page, enter any string as _consumer key_ and _consumer secret_. 
 5. Select the data set (or data sets) to be loaded.
 6. Schedule or run the data pipe now.
